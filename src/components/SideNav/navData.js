@@ -1,6 +1,5 @@
 import HomeIcon from '@mui/icons-material/Home';
 import ShowChartIcon from '@mui/icons-material/ShowChart';
-import LeaderboardIcon from '@mui/icons-material/Leaderboard';
 import SettingsIcon from '@mui/icons-material/Settings';
 import InfoIcon from '@mui/icons-material/Info';
 import GroupIcon from '@mui/icons-material/Group';
@@ -8,7 +7,6 @@ import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
 
 import {
   HOME_ID,
-  RANKING_ID,
   STATISTICS_ID,
   CLIENTS_ID,
   SUGGESTIONS_ID,
@@ -23,13 +21,6 @@ export const navData = [
     icon: <HomeIcon />,
     text: 'Home',
     link: routesPaths.index,
-    end: true,
-  },
-  {
-    id: RANKING_ID,
-    icon: <LeaderboardIcon />,
-    text: 'Ranking',
-    link: routesPaths.ranking,
     end: true,
   },
   {

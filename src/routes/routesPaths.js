@@ -1,6 +1,5 @@
 const routesPaths = {
   index: '/',
-  ranking: '/ranking',
   about: '/nosotros',
   statistics: '/statistics',
   settings: '/settings',

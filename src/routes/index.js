@@ -1,7 +1,6 @@
 import routesPaths from './routesPaths';
 import Home from 'pages/Home';
 import Login from 'pages/Login';
-import Ranking from 'pages/Ranking';
 import About from 'pages/About';
 import Settings from 'pages/Settings';
 import Statistics from 'pages/Statistics';
@@ -13,12 +12,6 @@ const routes = [
     path: routesPaths.index,
     element: <Home />,
     isPrivate: true,
-  },
-  {
-    path: routesPaths.ranking,
-    element: <Ranking />,
-    isPrivate: true,
-    title: 'Ranking',
   },
   {
     path: routesPaths.about,

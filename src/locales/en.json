@@ -47,10 +47,6 @@
   "logout": {
     "logoutBtn": "Logout"
   },
-  "ranking": {
-    "allTime": "All Time ({total})",
-    "today": "Today ({total})"
-  },
   "about": {
     "description": "Sobre ManuFactura... Llenar con info... Copiar a Sofia dulce Sofia jaja"
   },
