@@ -50,15 +50,6 @@
   "about": {
     "description": "Sobre ManuFactura... Llenar con info... Copiar a Sofia dulce Sofia jaja"
   },
-  "statistics": {
-    "currentStreak": "Current Streak",
-    "longestStreak": "Longest Streak",
-    "played": "Played",
-    "topAttemptedWordsLabel": "Top Used Words",
-    "totalAttemptsLabel": "Guess Distribution",
-    "wins": "Wins",
-    "winsPercentage": "Wins (%)"
-  },
   "suggestions": {
     "addSuggestion": "Add Suggestion",
     "editSuggestion": "Edit Suggestion",

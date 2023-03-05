@@ -1,7 +1,5 @@
-export const USERS_STATISTICS_FIELDS = {
-  date: 'date',
-  status: 'status',
-  attempts: 'attempts',
-  solveTime: 'solveTime',
-  username: 'user.name',
+export const CLIENTS_FIELDS = {
+  address: 'address',
+  description: 'description',
+  name: 'name',
 };

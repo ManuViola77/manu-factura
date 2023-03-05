@@ -2,7 +2,6 @@ import { combineReducers } from 'redux';
 import { persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 
-import statisticsReducer from './statisticsReducer';
 import userReducer from './userReducer';
 
 const sessionPersistConfig = {
@@ -12,7 +11,6 @@ const sessionPersistConfig = {
 };
 
 const rootReducer = combineReducers({
-  statistics: statisticsReducer,
   user: persistReducer(sessionPersistConfig, userReducer),
 });
 

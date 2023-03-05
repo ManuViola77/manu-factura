@@ -3,7 +3,6 @@ import Home from 'pages/Home';
 import Login from 'pages/Login';
 import About from 'pages/About';
 import Settings from 'pages/Settings';
-import Statistics from 'pages/Statistics';
 import Suggestions from 'pages/Suggestions';
 import Clients from 'pages/Clients';
 
@@ -26,20 +25,10 @@ const routes = [
     title: 'Settings (more coming soon 👀)',
   },
   {
-    path: routesPaths.statistics,
-    element: <Statistics />,
-    isPrivate: true,
-  },
-  {
     path: routesPaths.clients,
     element: <Clients />,
     isPrivate: true,
     title: 'Clientes',
-  },
-  {
-    path: routesPaths.usersStatistics,
-    element: <Statistics />,
-    isPrivate: true,
   },
   {
     path: routesPaths.suggestions,
