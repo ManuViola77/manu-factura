@@ -4,7 +4,7 @@ import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrow
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 import cn from 'classnames';
 
-import useErrorHandling from 'components/common/RSWordleErrorBoundary/useErrorHandling';
+import useErrorHandling from 'components/common/ManuFacturaErrorBoundary/useErrorHandling';
 import SkipToMainContent from 'components/SkipToMainContent';
 import { SIDE_NAV_TOGGLE_ID } from 'constants/componentsIds';
 

@@ -2,7 +2,7 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 
 import PageWrapper from 'components/common/PageWrapper';
-import RSWordleErrorBoundary from 'components/common/RSWordleErrorBoundary';
+import ManuFacturaErrorBoundary from 'components/common/ManuFacturaErrorBoundary';
 import PrivateRoute from 'components/routes/PrivateRoute';
 import SideNav from 'components/SideNav';
 import { MAIN_ID } from 'constants/componentsIds';
@@ -28,7 +28,7 @@ function App() {
         <title>{t('global.pageTitle')}</title>
       </Helmet>
       <BrowserRouter>
-        <RSWordleErrorBoundary showSideNav={showSideNav} t={t}>
+        <ManuFacturaErrorBoundary showSideNav={showSideNav} t={t}>
           {showSideNav && <SideNav />}
           <main id={MAIN_ID} {...(showSideNav ? { className: 'page-with-nav' } : {})}>
             <Routes>
@@ -47,7 +47,7 @@ function App() {
               ))}
             </Routes>
           </main>
-        </RSWordleErrorBoundary>
+        </ManuFacturaErrorBoundary>
       </BrowserRouter>
     </div>
   );

@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 
-import useErrorHandling from 'components/common/RSWordleErrorBoundary/useErrorHandling';
+import useErrorHandling from 'components/common/ManuFacturaErrorBoundary/useErrorHandling';
 import { getClients } from 'firebase/clients';
 
 const useClients = () => {

@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 
 import Button from 'components/common/Button';
-import useErrorHandling from 'components/common/RSWordleErrorBoundary/useErrorHandling';
+import useErrorHandling from 'components/common/ManuFacturaErrorBoundary/useErrorHandling';
 import firebaseData from 'firebase/firebase';
 import useTranslation from 'hooks/useTranslation';
 import routesPaths from 'routes/routesPaths';

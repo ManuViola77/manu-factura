@@ -3,8 +3,8 @@ import logo from 'assets/logoMandala.png';
 import './styles.css';
 
 const Logo = () => (
-  <div className="rs-wordle-logo-container">
-    <img src={logo} className="rs-wordle-logo" alt="RSWordle Logo" />
+  <div className="manu-factura-logo-container">
+    <img src={logo} className="manu-factura-logo" alt="ManuFactura Logo" />
   </div>
 );
 

@@ -8,7 +8,7 @@ import SideNav from 'components/SideNav';
 import ErrorBoundaryContext from './context';
 import './styles.css';
 
-class RSWordleErrorBoundary extends React.Component {
+class ManuFacturaErrorBoundary extends React.Component {
   state = { hasError: false, errorMessage: '' };
 
   static getDerivedStateFromError(error) {
@@ -65,4 +65,4 @@ class RSWordleErrorBoundary extends React.Component {
   }
 }
 
-export default RSWordleErrorBoundary;
+export default ManuFacturaErrorBoundary;

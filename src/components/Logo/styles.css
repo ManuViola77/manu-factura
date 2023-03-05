@@ -1,4 +1,4 @@
-.rs-wordle-logo-container {
+.manu-factura-logo-container {
   background-color: var(--color-background);
   display: flex;
   justify-content: flex-end;
@@ -6,6 +6,6 @@
   padding-top: 20px;
 }
 
-.rs-wordle-logo {
+.manu-factura-logo {
   height: 50px;
 }
