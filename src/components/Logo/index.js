@@ -1,10 +1,10 @@
-import wordleLogo from 'assets/wordleLogo.png';
+import logo from 'assets/logoMandala.png';
 
 import './styles.css';
 
 const Logo = () => (
   <div className="rs-wordle-logo-container">
-    <img src={wordleLogo} className="rs-wordle-logo" alt="RSWordle Logo" />
+    <img src={logo} className="rs-wordle-logo" alt="RSWordle Logo" />
   </div>
 );
 

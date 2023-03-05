@@ -1,9 +1,9 @@
-import { bool, string, node } from 'prop-types';
+import { bool, node } from 'prop-types';
 import { Navigate, useLocation } from 'react-router-dom';
 
 import routesPaths from '../../routes/routesPaths';
 
-const PrivateRoute = ({ children, isPrivate, path, authenticated, isRootstrapDomain }) => {
+const PrivateRoute = ({ children, isPrivate, authenticated /* isAdminUser */ }) => {
   const location = useLocation();
 
   if (!isPrivate) {
@@ -14,18 +14,18 @@ const PrivateRoute = ({ children, isPrivate, path, authenticated, isRootstrapDom
     return <Navigate to={routesPaths.login} state={{ from: location }} />;
   }
 
-  if (authenticated && !isRootstrapDomain && path !== routesPaths.invalidUser) {
-    return <Navigate to={routesPaths.invalidUser} state={{ from: location }} />;
+  /*  if (!isAdminUser) {
+    return <Navigate to={routesPaths.index} state={{ from: location }} />;
   }
-
+ */
   return children;
 };
 
 PrivateRoute.propTypes = {
   children: node.isRequired,
   isPrivate: bool,
-  path: string.isRequired,
   authenticated: bool,
+  // isAdminUser: bool,
 };
 
 export default PrivateRoute;

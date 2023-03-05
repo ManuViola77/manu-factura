@@ -11,7 +11,7 @@ import userReducer from './userReducer';
 const sessionPersistConfig = {
   key: 'user',
   storage,
-  whitelist: ['authenticated', 'user', 'wasOnboardingShown'],
+  whitelist: ['authenticated', 'user'],
 };
 
 const rootReducer = combineReducers({
