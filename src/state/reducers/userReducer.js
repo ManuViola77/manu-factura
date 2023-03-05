@@ -4,7 +4,7 @@ import { login, logout } from 'state/actions/userActions';
 
 const initialState = {
   authenticated: false,
-  user: null,
+  user: {},
 };
 
 const handleLogin = (state, { payload }) => {
