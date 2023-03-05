@@ -41,7 +41,7 @@ const routes = [
     path: routesPaths.clients,
     element: <Clients />,
     isPrivate: true,
-    title: 'Clients',
+    title: 'Clientes',
   },
   {
     path: routesPaths.usersStatistics,

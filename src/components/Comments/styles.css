@@ -16,7 +16,7 @@
 }
 
 .comment-container {
-  background-color: var(--color-green);
+  background-color: var(--color-primary);
   border-radius: 10px;
   margin-bottom: 15px;
   padding: 10px;

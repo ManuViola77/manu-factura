@@ -1,7 +1,7 @@
 .list-row-container {
   align-items: center;
-  background-color: var(--color-medium-green);
-  border-color: var(--color-medium-green);
+  background-color: var(--color-primary-medium);
+  border-color: var(--color-primary-medium);
   border-radius: 10px;
   border-style: solid;
   border-width: 2px;
@@ -19,8 +19,8 @@
 }
 
 .list-row-container.isCurrentUser {
-  background-color: var(--color-green);
-  border-color: var(--color-green);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 .list-row-container.lost {

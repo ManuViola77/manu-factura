@@ -1,5 +1,5 @@
 .suggestion-card-container {
-  background-color: var(--color-green);
+  background-color: var(--color-primary);
   border-radius: 10px;
   display: flex;
   justify-content: space-between;

@@ -1,5 +1,5 @@
 .skipToMainContent {
-  background-color: var(--color-hunter-green);
+  background-color: var(--color-primary);
   color: var(--color-white);
   font-weight: 600;
   left: -1000px;
@@ -14,11 +14,11 @@
 }
 
 .skipToMainContent:hover {
-  background-color: var(--color-green);
+  background-color: var(--color-primary);
   color: var(--color-black);
 }
 
 .skipToMainContent:active {
-  background-color: var(--color-green);
+  background-color: var(--color-primary);
   color: var(--color-black);
 }

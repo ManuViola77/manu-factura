@@ -1,7 +1,7 @@
 .input {
-  background-color: var(--color-dark-green);
+  background-color: var(--color-primary-dark);
   border-radius: 8px;
-  border-color: var(--color-dark-green);
+  border-color: var(--color-primary-dark);
   color: var(--color-white);
   flex: 1;
   font-size: 16px;

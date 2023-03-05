@@ -4,7 +4,7 @@
   justify-content: space-between;
   width: 250px;
   transition: width 0.3s ease-in-out;
-  background-color: var(--color-green);
+  background-color: var(--color-primary);
   padding: 28px 0 18px;
   position: fixed;
   top: 0;

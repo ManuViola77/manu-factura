@@ -25,7 +25,7 @@
 }
 
 .bar-chart-value {
-  background-color: var(--color-green);
+  background-color: var(--color-primary);
   border-radius: 10px;
   font-size: 20px;
   font-weight: 800;
