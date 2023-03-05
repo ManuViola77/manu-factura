@@ -1,5 +1,4 @@
-export const DAILY_RESULTS = 'dailyResults';
-export const SUGGESTIONS = 'suggestions';
-export const USERS = 'users';
 export const CLIENTS = 'clients';
-export const WORDS_COLLECTION = 'words';
+export const DELIVERY = 'delivery';
+export const MATERIAL = 'material';
+export const USERS = 'users';

@@ -9,37 +9,19 @@
     "seeWelcomeInfo": "See Welcome Info",
     "word": "word"
   },
-  "comments": {
-    "addComment": "Add Comment",
-    "addNewComment": "Add New Comment",
-    "cancelEditComment": "Cancel Edit Comment",
-    "commentText": "Comment Text",
-    "confirmEditComment": "Confirm Edit Comment",
-    "confirmTitle": "Are you sure you want to delete this comment?",
-    "confirmDescription": "Deleting this comment is a permanent action. Are you sure you want to delete it?",
-    "deleteComment": "Delete Comment",
-    "editComment": "Edit Comment"
-  },
   "errorBoundary": {
     "description": "You can check the technical issue here:",
     "subtitle": "Something went wrong. Sorry for the inconvenience.",
     "title": "Oops there was an error 😭",
     "tryAgain": "Try Again"
   },
-  "errors": {
-    "alreadyAttemptedWord": "You already tried with {attemptedWord}",
-    "doesntExist": "{attemptedWord} doesn't exist in English",
-    "emptyDescription": "Description can't be empty",
-    "emptyTitle": "Title can't be empty",
-    "lettersAmount": "{attemptedWord} doesn't have {wordLength} letters"
-  },
   "global": {
-    "cancel": "Cancel",
-    "confirm": "Confirm",
-    "pageTitle": "RS Wordle"
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "pageTitle": "ManuFactura"
   },
   "home": {
-    "home": "Home"
+    "home": "Pagina Principal"
   },
   "login": {
     "title": "Login with Google"
@@ -49,27 +31,6 @@
   },
   "about": {
     "description": "Sobre ManuFactura... Llenar con info... Copiar a Sofia dulce Sofia jaja"
-  },
-  "suggestions": {
-    "addSuggestion": "Add Suggestion",
-    "editSuggestion": "Edit Suggestion",
-    "comment": "Comment",
-    "commentedBy": "Commented by {name}",
-    "confirmDescription": "Deleting \"{title}\" is a permanent action. Are you sure you want to delete it?",
-    "confirmTitle": "Are you sure you want to delete this suggestion?",
-    "deleteSuggestion": "Delete Suggestion",
-    "description": "Description",
-    "negativeVote": "Negative Vote",
-    "positiveVote": "Positive Vote",
-    "showComments": "Show Comments",
-    "slogan": "Have a suggestion or want to report a bug? You are in the correct place!",
-    "status": "Status",
-    "suggestedBy": "Suggested by {name}",
-    "title": "Title",
-    "votedNegative": "You voted negative",
-    "votedPositive": "You voted positive",
-    "voteNegative": "Vote negative",
-    "votePositive": "Vote positive"
   },
   "clients": {
     "filterByName": "Filtrar por Nombre"

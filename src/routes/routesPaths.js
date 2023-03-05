@@ -2,7 +2,6 @@ const routesPaths = {
   index: '/',
   about: '/nosotros',
   settings: '/settings',
-  suggestions: '/suggestions',
   clients: '/clientes',
   login: '/login',
 };

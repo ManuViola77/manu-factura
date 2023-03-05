@@ -3,7 +3,6 @@ import Home from 'pages/Home';
 import Login from 'pages/Login';
 import About from 'pages/About';
 import Settings from 'pages/Settings';
-import Suggestions from 'pages/Suggestions';
 import Clients from 'pages/Clients';
 
 const routes = [
@@ -29,12 +28,6 @@ const routes = [
     element: <Clients />,
     isPrivate: true,
     title: 'Clientes',
-  },
-  {
-    path: routesPaths.suggestions,
-    element: <Suggestions />,
-    isPrivate: true,
-    title: 'Suggestions',
   },
   {
     path: routesPaths.login,

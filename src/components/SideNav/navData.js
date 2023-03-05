@@ -2,15 +2,8 @@ import HomeIcon from '@mui/icons-material/Home';
 import SettingsIcon from '@mui/icons-material/Settings';
 import InfoIcon from '@mui/icons-material/Info';
 import GroupIcon from '@mui/icons-material/Group';
-import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
 
-import {
-  HOME_ID,
-  CLIENTS_ID,
-  SUGGESTIONS_ID,
-  ABOUT_ID,
-  SETTINGS_ID,
-} from 'constants/componentsIds';
+import { HOME_ID, CLIENTS_ID, ABOUT_ID, SETTINGS_ID } from 'constants/componentsIds';
 import routesPaths from 'routes/routesPaths';
 
 export const navData = [
@@ -26,13 +19,6 @@ export const navData = [
     icon: <GroupIcon />,
     text: 'Clientes',
     link: routesPaths.clients,
-    end: true,
-  },
-  {
-    id: SUGGESTIONS_ID,
-    icon: <QuestionAnswerIcon />,
-    text: 'Suggestions',
-    link: routesPaths.suggestions,
     end: true,
   },
   {
