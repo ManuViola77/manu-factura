@@ -1,14 +1,13 @@
 const routesPaths = {
   index: '/',
   ranking: '/ranking',
-  rules: '/rules',
+  about: '/nosotros',
   statistics: '/statistics',
   settings: '/settings',
   suggestions: '/suggestions',
-  users: '/users',
+  clients: '/clientes',
   usersStatistics: '/statistics/:id',
   login: '/login',
-  invalidUser: '/invalidUser',
 };
 
 export default routesPaths;

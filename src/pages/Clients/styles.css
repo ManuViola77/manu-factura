@@ -1,11 +1,11 @@
-.users-container {
+.clients-container {
   align-items: center;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-.users-filters-container {
+.clients-filters-container {
   align-items: center;
   display: flex;
   flex: 0 1;
@@ -13,12 +13,12 @@
   width: 80%;
 }
 
-.users-filter-label {
+.clients-filter-label {
   font-size: 22px;
   font-weight: 600;
   padding-right: 25px;
 }
 
-.users-list-container {
+.clients-list-container {
   width: 80%;
 }

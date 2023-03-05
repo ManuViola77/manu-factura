@@ -3,7 +3,6 @@ import { useDispatch } from 'react-redux';
 
 import useErrorHandling from 'components/common/RSWordleErrorBoundary/useErrorHandling';
 import { getAllTimeRankingData, getTodaysResults } from 'firebase/ranking';
-import { getUsers } from 'firebase/users';
 import useConstructor from 'hooks/useConstructor';
 import { setAllTimeRanking, setTodaysResults } from 'state/actions/rankingActions';
 import { getTodaysDate } from 'utils/helpers';
@@ -24,8 +23,7 @@ const useRankingEndpoints = () => {
   };
 
   const fetchAllTimeRanking = async () => {
-    const { users } = await getUsers({ isObject: true, triggerError });
-    const { allTimeRankingData } = await getAllTimeRankingData(users, triggerError);
+    const { allTimeRankingData } = await getAllTimeRankingData([], triggerError);
     await dispatch(setAllTimeRanking({ allTimeRankingData }));
   };
 

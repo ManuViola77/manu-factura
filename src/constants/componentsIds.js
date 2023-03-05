@@ -6,9 +6,9 @@ export const SIDE_NAV_TOGGLE_ID = 'sideNavToggleId';
 export const HOME_ID = 'homeId';
 export const RANKING_ID = 'rankingId';
 export const STATISTICS_ID = 'statisticsId';
-export const USERS_ID = 'usersId';
+export const CLIENTS_ID = 'clientsId';
 export const SUGGESTIONS_ID = 'suggestionsId';
-export const RULES_ID = 'rulesId';
+export const ABOUT_ID = 'aboutId';
 export const SETTINGS_ID = 'settingsId';
 
 export const IGNORE_KEYBOARD_COMPONENTS_IDS = [
@@ -16,7 +16,7 @@ export const IGNORE_KEYBOARD_COMPONENTS_IDS = [
   SIDE_NAV_TOGGLE_ID,
   RANKING_ID,
   STATISTICS_ID,
-  USERS_ID,
-  RULES_ID,
+  CLIENTS_ID,
+  ABOUT_ID,
   SETTINGS_ID,
 ];

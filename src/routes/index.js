@@ -1,13 +1,12 @@
 import routesPaths from './routesPaths';
 import Home from 'pages/Home';
-import InvalidUser from 'pages/InvalidUser';
 import Login from 'pages/Login';
 import Ranking from 'pages/Ranking';
-import Rules from 'pages/Rules';
+import About from 'pages/About';
 import Settings from 'pages/Settings';
 import Statistics from 'pages/Statistics';
 import Suggestions from 'pages/Suggestions';
-import Users from 'pages/Users';
+import Clients from 'pages/Clients';
 
 const routes = [
   {
@@ -22,11 +21,10 @@ const routes = [
     title: 'Ranking',
   },
   {
-    path: routesPaths.rules,
-    element: <Rules />,
+    path: routesPaths.about,
+    element: <About />,
     isPrivate: true,
-    title: 'RULES',
-    subtitle: 'Can you guess the word before other Rootstrappers do?',
+    title: 'Nosotros',
   },
   {
     path: routesPaths.settings,
@@ -40,10 +38,10 @@ const routes = [
     isPrivate: true,
   },
   {
-    path: routesPaths.users,
-    element: <Users />,
+    path: routesPaths.clients,
+    element: <Clients />,
     isPrivate: true,
-    title: 'Users',
+    title: 'Clients',
   },
   {
     path: routesPaths.usersStatistics,
@@ -59,11 +57,6 @@ const routes = [
   {
     path: routesPaths.login,
     element: <Login />,
-  },
-  {
-    path: routesPaths.invalidUser,
-    element: <InvalidUser />,
-    isPrivate: true,
   },
 ];
 

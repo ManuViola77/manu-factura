@@ -34,7 +34,7 @@ const ListRow = ({
       >
         <span className="list-row-left-text">{leftText}</span>
         <div className="list-row-user">
-          <img src={photo} className="list-row-photo" alt={`user-${name}`} />
+          {!!photo && <img src={photo} className="list-row-photo" alt={`user-${name}`} />}
           <span className="list-row-name">{name}</span>
         </div>
         <div className="list-row-right-text-container">
