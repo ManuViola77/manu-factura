@@ -10,7 +10,7 @@ export const navData = [
   {
     id: HOME_ID,
     icon: <HomeIcon />,
-    text: 'Home',
+    text: 'Stock',
     link: routesPaths.index,
     end: true,
   },

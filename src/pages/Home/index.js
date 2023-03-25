@@ -1,10 +1,14 @@
+import AddCircleOutlinedIcon from '@mui/icons-material/AddCircleOutlined';
+import IconButton from '@mui/material/IconButton';
+
+import ProductCard from 'components/ProductCard';
+import useHome from 'hooks/useHome';
 import useTranslation from 'hooks/useTranslation';
-// import useWordDb from 'hooks/useWordDb';
 
 import './styles.css';
 
 const Home = () => {
-  //const { letters, word, loading } = useWordDb();
+  const { products } = useHome();
 
   const t = useTranslation();
 
@@ -12,7 +16,21 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      <h1>{t('home.home')}</h1>
+      <div className="title-button-container">
+        <h1 className="home-title">{t('home.home')}</h1>
+        <div className="add-stock-button">
+          <IconButton
+            color="secondary"
+            //onClick={handleOpenModal}
+            aria-label={t('home.addStock')}
+          >
+            <AddCircleOutlinedIcon fontSize="large" />
+          </IconButton>
+        </div>
+      </div>
+      {products.map(product => (
+        <ProductCard key={product.id} product={product} />
+      ))}
     </div>
   );
 };

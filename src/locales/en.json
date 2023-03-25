@@ -21,7 +21,8 @@
     "pageTitle": "ManuFactura"
   },
   "home": {
-    "home": "Pagina Principal"
+    "home": "Stock",
+    "addStock": "Add Stock"
   },
   "login": {
     "title": "Login with Google"

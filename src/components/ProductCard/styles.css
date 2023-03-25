@@ -1,0 +1,22 @@
+.product-card-container {
+  align-items: center;
+  border-color: blueviolet;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: fit-content;
+}
+
+.product-card-image {
+    height: 100px;
+    width: 100px;
+}
+
+.product-card-name {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
