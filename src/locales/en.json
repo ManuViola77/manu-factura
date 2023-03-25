@@ -21,8 +21,8 @@
     "pageTitle": "ManuFactura"
   },
   "home": {
-    "home": "Stock",
-    "addStock": "Add Stock"
+    "home": "Products",
+    "addProducts": "Add Products"
   },
   "login": {
     "title": "Login with Google"

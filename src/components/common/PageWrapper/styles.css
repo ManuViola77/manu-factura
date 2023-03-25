@@ -6,6 +6,10 @@
   min-height: 100vh;
 }
 
+.side-nav-margin {
+  margin-left: var(--closed-side-menu);
+}
+
 .titles-container {
   align-items: center;
   display: flex;

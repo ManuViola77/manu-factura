@@ -29,8 +29,7 @@ function App() {
       </Helmet>
       <BrowserRouter>
         <ManuFacturaErrorBoundary showSideNav={showSideNav} t={t}>
-          {showSideNav && <SideNav />}
-          <main id={MAIN_ID} {...(showSideNav ? { className: 'page-with-nav' } : {})}>
+          <main id={MAIN_ID} className="page-with-nav">
             <Routes>
               {routes.map(route => (
                 <Route
@@ -38,7 +37,12 @@ function App() {
                   {...route}
                   element={
                     <PrivateRoute {...route} authenticated={authenticated} isAdminUser={isAdmin}>
-                      <PageWrapper title={route.title} subtitle={route.subtitle}>
+                      {route.showSideNav && <SideNav />}
+                      <PageWrapper
+                        title={route.title}
+                        subtitle={route.subtitle}
+                        showSideNav={route.showSideNav}
+                      >
                         {route.element}
                       </PageWrapper>
                     </PrivateRoute>

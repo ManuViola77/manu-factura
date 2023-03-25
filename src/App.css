@@ -7,10 +7,6 @@ main {
   flex: 1;
 }
 
-.page-with-nav {
-  margin-left: var(--closed-side-menu);
-}
-
 .font-frijole {
   font-family: 'Frijole', cursive;
 }

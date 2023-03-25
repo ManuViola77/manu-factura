@@ -1,9 +1,10 @@
 const routesPaths = {
   index: '/',
   about: '/nosotros',
-  settings: '/settings',
   clients: '/clientes',
   login: '/login',
+  addProduct: '/add-product',
+  settings: '/settings',
 };
 
 export default routesPaths;

@@ -1,4 +1,14 @@
+import { useNavigate } from 'react-router-dom';
+
+import routesPaths from 'routes/routesPaths';
+
 const useHome = () => {
+  const navigate = useNavigate();
+
+  const goToAddProduct = () => {
+    navigate(routesPaths.addProduct);
+  };
+
   return {
     products: [
       {
@@ -13,6 +23,7 @@ const useHome = () => {
         packaging: [],
       },
     ],
+    goToAddProduct,
   };
 };
 

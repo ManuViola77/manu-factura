@@ -8,7 +8,7 @@ import useTranslation from 'hooks/useTranslation';
 import './styles.css';
 
 const Home = () => {
-  const { products } = useHome();
+  const { goToAddProduct, products } = useHome();
 
   const t = useTranslation();
 
@@ -18,12 +18,8 @@ const Home = () => {
     <div className="home-container">
       <div className="title-button-container">
         <h1 className="home-title">{t('home.home')}</h1>
-        <div className="add-stock-button">
-          <IconButton
-            color="secondary"
-            //onClick={handleOpenModal}
-            aria-label={t('home.addStock')}
-          >
+        <div className="add-products-button">
+          <IconButton color="secondary" onClick={goToAddProduct} aria-label={t('home.addProducts')}>
             <AddCircleOutlinedIcon fontSize="large" />
           </IconButton>
         </div>

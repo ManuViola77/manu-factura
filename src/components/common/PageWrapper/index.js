@@ -2,8 +2,8 @@ import Logo from 'components/Logo';
 
 import './styles.css';
 
-const PageWrapper = ({ title, subtitle, children }) => (
-  <div className="page-container">
+const PageWrapper = ({ title, showSideNav, subtitle, children }) => (
+  <div className={`page-container  ${showSideNav ? 'side-nav-margin' : ''}`}>
     <Logo />
     <div className="titles-container">
       {title && <h1 className="page-title">{title}</h1>}
